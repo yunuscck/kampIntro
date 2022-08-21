@@ -29,38 +29,36 @@ namespace ClassIntro
             kurs4.Egitmeni = "Kadirhan Harput";
             kurs4.IzlemeOrani = 100;
 
+            Kurs kurs5 = new Kurs();
+            kurs5.kursAdi = "Carbon";
+            kurs5.Egitmeni = "Google";
+            kurs5.IzlemeOrani = 100;
 
-            Console.WriteLine(kurs1.kursAdi + " - " + kurs1.Egitmeni);
 
-            Kurs[] kurslar = new Kurs[] { kurs1, kurs2, kurs3, kurs4 };
+            //Console.WriteLine(kurs1.kursAdi + " - " + kurs1.Egitmeni);
+
+            Kurs[] kurslar = new Kurs[] { kurs1, kurs2, kurs3, kurs4, kurs5 };
 
             foreach (Kurs kurs in kurslar)
             {
-                Console.WriteLine(kurs.kursAdi + " : " + kurs.Egitmeni);
+                //Console.WriteLine(kurs.kursAdi + " : " + kurs.Egitmeni);
+                kurs.GetKursName();
 
             }
-
-
-
-
-
-
-
-
-
-
-            // ;  <  >
         }
 
     }
 
     class Kurs
     {
-        public string  kursAdi { get; set; }
-        public string  Egitmeni { get; set; }
-        public int  IzlemeOrani { get; set; }
+        public string kursAdi { get; set; }
+        public string Egitmeni { get; set; }
+        public int IzlemeOrani { get; set; }
 
 
-
+        public void GetKursName()
+        {
+            Console.WriteLine(kursAdi);
+        }
     }
 }
