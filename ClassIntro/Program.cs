@@ -45,9 +45,7 @@ namespace ClassIntro
         }
 
     }
-    /// <summary>
-    /// Kurs means courses
-    /// </summary>
+
     class Kurs
     {
         public string KursAdi { get; set; }
