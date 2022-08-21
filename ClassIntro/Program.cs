@@ -41,12 +41,6 @@ namespace ClassIntro
             }
 
 
-            int toplama(int say1, int say2)
-            {
-                return say2 + say1;  
-            }
-
-            Console.WriteLine(toplama(5,3));
 
 
 
