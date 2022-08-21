@@ -43,6 +43,7 @@ namespace ClassIntro
             {
                 //Console.WriteLine(kurs.kursAdi + " : " + kurs.Egitmeni);
                 kurs.GetKursName();
+                kurs.GetEgitmenName();
 
             }
         }
@@ -58,7 +59,12 @@ namespace ClassIntro
 
         public void GetKursName()
         {
-            Console.WriteLine(kursAdi);
+            Console.Write(kursAdi + " ");
+        }
+
+        public void GetEgitmenName()
+        {
+            Console.WriteLine(Egitmeni);
         }
     }
 }
