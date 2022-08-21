@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kampIntro", "kampIntro\kampIntro.csproj", "{80598DFF-324E-45D8-B471-4D519DC32C55}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops", "Loops\Loops.csproj", "{9992C3A2-36BF-49D8-BE91-F383B93A83DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassIntro", "ClassIntro\ClassIntro.csproj", "{BFAE3FC7-875F-4EC8-A476-46CDA4CF2A28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80598DFF-324E-45D8-B471-4D519DC32C55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80598DFF-324E-45D8-B471-4D519DC32C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80598DFF-324E-45D8-B471-4D519DC32C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80598DFF-324E-45D8-B471-4D519DC32C55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9992C3A2-36BF-49D8-BE91-F383B93A83DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9992C3A2-36BF-49D8-BE91-F383B93A83DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9992C3A2-36BF-49D8-BE91-F383B93A83DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9992C3A2-36BF-49D8-BE91-F383B93A83DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFAE3FC7-875F-4EC8-A476-46CDA4CF2A28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFAE3FC7-875F-4EC8-A476-46CDA4CF2A28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFAE3FC7-875F-4EC8-A476-46CDA4CF2A28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFAE3FC7-875F-4EC8-A476-46CDA4CF2A28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B251D0D5-1F22-4A11-B4BC-AE1E4EF55BA9}
+	EndGlobalSection
+EndGlobal
