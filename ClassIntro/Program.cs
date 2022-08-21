@@ -29,20 +29,16 @@ namespace ClassIntro
             kurs4.Egitmeni = "Kadirhan Harput";
             kurs4.IzlemeOrani = 100;
 
-            
-            //Console.WriteLine (kurs1.kursAdi + " - " + kurs1.Egitmeni);
 
-            //Kurs[] kurslar = new Kurs[] { kurs1, kurs2, kurs3, kurs4 };
+            Console.WriteLine(kurs1.kursAdi + " - " + kurs1.Egitmeni);
 
-            //foreach (Kurs kurs in kurslar)
-            //{
-            //    Console.WriteLine(kurs.kursAdi + " : " + kurs.Egitmeni);
+            Kurs[] kurslar = new Kurs[] { kurs1, kurs2, kurs3, kurs4 };
 
-            //}
+            foreach (Kurs kurs in kurslar)
+            {
+                Console.WriteLine(kurs.kursAdi + " : " + kurs.Egitmeni);
 
-
-
-            
+            }
 
 
 
@@ -50,8 +46,12 @@ namespace ClassIntro
 
 
 
-        // ;  <  >
-    }
+
+
+
+
+            // ;  <  >
+        }
 
     }
 
