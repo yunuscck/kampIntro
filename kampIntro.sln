@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kampIntro", "kampIntro\kamp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops", "Loops\Loops.csproj", "{9992C3A2-36BF-49D8-BE91-F383B93A83DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassIntro", "ClassIntro\ClassIntro.csproj", "{BFAE3FC7-875F-4EC8-A476-46CDA4CF2A28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassIntro", "ClassIntro\ClassIntro.csproj", "{BFAE3FC7-875F-4EC8-A476-46CDA4CF2A28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "methods", "methods\methods.csproj", "{9E71D62A-8BA1-46B8-B633-197953CCBE01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{BFAE3FC7-875F-4EC8-A476-46CDA4CF2A28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFAE3FC7-875F-4EC8-A476-46CDA4CF2A28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFAE3FC7-875F-4EC8-A476-46CDA4CF2A28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E71D62A-8BA1-46B8-B633-197953CCBE01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E71D62A-8BA1-46B8-B633-197953CCBE01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E71D62A-8BA1-46B8-B633-197953CCBE01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E71D62A-8BA1-46B8-B633-197953CCBE01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
